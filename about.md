@@ -1,16 +1,11 @@
 ---
 layout: page
-title: MORE
+title: about
 permalink: /about/
-date: 2015-11-17 14:39:45 +0800
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+heyo, issame! im a limeboi, bois, so ya better watch out! 
+follow my twitter or something i dont care man just leave me alone. 
+i dont know how to talk to people.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+im a cake in human form

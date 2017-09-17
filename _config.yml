@@ -6,15 +6,15 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Princess Diaries
-email: your-email@domain.com
+title: limebois when?
+email: limesayahi@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
     This is just another Jekyll theme.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://kawabangga.com" # the base hostname & protocol for your site
-facebook: https://www.facebook.com/profile.php?id=100008578420735
-github:  https://github.com/laixintao
-twitter: https://twitter.com/SinpeachLai
+url: "http://emilsayahi.cf/" # the base hostname & protocol for your site
+//facebook: 
+github:  https://github.com/emilsayahi
+twitter: https://twitter.com/limebois
 
 # Build settings
 markdown: kramdown

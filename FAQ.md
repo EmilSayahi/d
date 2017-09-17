@@ -1,15 +1,22 @@
 ---
 layout: page
 title: FAQ
-permalink: /about/
+permalink: /faq/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+here are some questions you might have about me, and my answers.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+question: who you?
+answer: don't care, chungus!
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+question: who cute?
+answer: get outta heayah, brungus!
+
+question: follow ur tweet birb?
+answer: sure, @limebois! so gosh darn amazing you right there asked, bronchitis.
+
+question: can i marry u?
+answer: if ur qt enough anything can happen, dungung. and ur not so im so sorry its not you its me pleas i didnt mean to hurt you please dont do this we can still be a loving family im sorry i hurt you im so sorry i wont do it again please dont hurt me please please please leave me alone god please i love you i love you so much please don t do thi no no no please god no no oh god whats wrong with you please let me live please let me live oh no please im so sorry i love you dont do this 
+
+
+signed: limeboi
