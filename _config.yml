@@ -41,7 +41,7 @@ destination: emilsayahi.github.io
 # or "master" otherwise
 username: EmilSayahi
 repo: emilsayahi.github.io
-branch: master
+branch: source
 
 permalink: pretty
 
