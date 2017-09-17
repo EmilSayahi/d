@@ -13,6 +13,8 @@ before_install:
 - rvm use 2.1
 - ". $HOME/.nvm/nvm.sh && nvm install 6.1 && nvm use 6.1"
 - gem install bundler
+- npm install --global gulp-cli
+- npm install --save-dev gulp
 - bundle check || bundle install
 - cd _scripts
 - chmod +x build.sh
