@@ -14,8 +14,10 @@ before_install:
 - ". $HOME/.nvm/nvm.sh && nvm install 6.1 && nvm use 6.1"
 - gem install bundler
 - bundle check || bundle install
+- cd _scripts
 - chmod +x build.sh
 - chmod +x run-tests.sh
+- cd ..
 
 env:
   global:
