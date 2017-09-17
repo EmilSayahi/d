@@ -24,3 +24,36 @@ paginate_path: "page:num"
 
 
 gems: [jekyll-paginate] 
+
+safe: false
+lsi: false
+pygments: true
+
+relative_source: ../EXAMPLE/
+destination: emilsayahi.github.io
+
+# Settings for deploy rake task
+# Username and repo of Github repo, e.g.
+# https://github.com/USERNAME/REPO.git
+# username defaults to ENV['GIT_NAME'] used by Travis
+# repo defaults to USERNAME.github.io
+# Branch defaults to "source" for USERNAME.github.io
+# or "master" otherwise
+username: EmilSayahi
+repo: emilsayahi.github.io
+branch: master
+
+permalink: pretty
+
+paginate: 10
+paginate_path: "blog/page:num"
+
+exclude:
+  - README.md
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - changelog.md
+  - "*.Rmd"
+  - vendor
+  - .travis.yml
