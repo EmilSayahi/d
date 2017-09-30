@@ -6,6 +6,7 @@ categories:
 tags:
 - ｆａｇｇｏｔ
 layout: post
+comments: true
 ---
 
 oh heyo， you found my stupid blogｇo, ｋｉｄｄｏ.   now get off... ｓｃｒａｍ！！!
