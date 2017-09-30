@@ -1,59 +1,42 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
+---
 title: limebois when?
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 email: limesayahi@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-    the blog you should(nt?) read, boi
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://emilsayahi.cf/" # the base hostname & protocol for your site
-//facebook: 
-github:  https://github.com/emilsayahi
+description: 'the blog you should(nt?) read, boi
+
+'
+baseurl: ''
+url: http://emilsayahi.cf/
+"//facebook": 
+github: https://github.com/emilsayahi
 twitter: https://twitter.com/limebois
-
-# Build settings
 markdown: kramdown
-
-paginate: 3
-paginate_path: "page:num"
-
-
-gems: [jekyll-paginate] 
-
+paginate: 10
+paginate_path: blog/page:num
+gems:
+- jekyll-paginate
 safe: false
 lsi: false
 pygments: true
-
-relative_source: ../EXAMPLE/
+relative_source: "../EXAMPLE/"
 destination: emilsayahi.github.io
-
-# Settings for deploy rake task
-# Username and repo of Github repo, e.g.
-# https://github.com/USERNAME/REPO.git
-# username defaults to ENV['GIT_NAME'] used by Travis
-# repo defaults to USERNAME.github.io
-# Branch defaults to "source" for USERNAME.github.io
-# or "master" otherwise
 username: EmilSayahi
 repo: emilsayahi.github.io
 branch: source
-
 permalink: pretty
-
-paginate: 10
-paginate_path: "blog/page:num"
-
 exclude:
-  - README.md
-  - Rakefile
-  - Gemfile
-  - Gemfile.lock
-  - changelog.md
-  - "*.Rmd"
-  - vendor
-  - .travis.yml
+- README.md
+- Rakefile
+- Gemfile
+- Gemfile.lock
+- changelog.md
+- "*.Rmd"
+- vendor
+- ".travis.yml"

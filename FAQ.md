@@ -1,7 +1,7 @@
 ---
-layout: page
 title: faq
-permalink: /faq/
+permalink: "/faq/"
+layout: page
 ---
 
 here are some questions you might have about me, and my answers.

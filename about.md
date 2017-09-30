@@ -1,7 +1,7 @@
 ---
-layout: page
 title: about
-permalink: /about/
+permalink: "/about/"
+layout: page
 ---
 
 heyo, issame! im a limeboi, bois, so ya better watch out! 
