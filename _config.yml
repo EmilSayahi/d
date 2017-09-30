@@ -15,7 +15,6 @@ description: 'the blog you should(nt?) read, boi comments: true
 '
 baseurl: 
 url: http://emilsayahi.cf/
-"//facebook": 
 github: https://github.com/emilsayahi
 twitter: https://twitter.com/limebois
 markdown: kramdown
