@@ -1,0 +1,42 @@
+---
+title: limebois when?
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+email: limesayahi@gmail.com
+description: 'the blog you should(nt?) read, boi
+
+'
+baseurl: 
+url: http://emilsayahi.cf/
+"//facebook": 
+github: https://github.com/emilsayahi
+twitter: https://twitter.com/limebois
+markdown: kramdown
+paginate: 10
+paginate_path: blog/page:num
+gems:
+- jekyll-paginate
+safe: false
+lsi: false
+pygments: true
+relative_source: "../EXAMPLE/"
+destination: emilsayahi.github.io
+username: EmilSayahi
+repo: emilsayahi.github.io
+branch: source
+permalink: pretty
+exclude:
+- README.md
+- Rakefile
+- Gemfile
+- Gemfile.lock
+- changelog.md
+- "*.Rmd"
+- vendor
+- ".travis.yml"
