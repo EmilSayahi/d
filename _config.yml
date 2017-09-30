@@ -4,14 +4,13 @@ timezone: America/New_York
 collections:
   posts:
     title: posts
-    comments: true
     output: true
+    comments: true
   uploads:
     title: uploads
     output: true
 email: limesayahi@gmail.com
-description: 'the blog you should(nt?) read, boi
-comments: true
+description: 'the blog you should(nt?) read, boi comments: true
 
 '
 baseurl: 
