@@ -1,10 +1,11 @@
 ---
-title: Welcome to Jekyll!
-date: 2017-09-30 00:44:00 Z
+title: oh heyoｔｈｅｒｅ
+date: 2017-09-30 00:47:00 Z
 categories:
 - ｈｅｙｏ
 tags:
 - ｆａｇｇｏｔ
+comments: true
 layout: post
 ---
 
