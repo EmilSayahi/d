@@ -8,4 +8,4 @@ tags:
 layout: post
 ---
 
-oh heyo， you found my stupid blogｇo, ｋｉｄｄｏ. now get off... ｓｃｒａｍ！！!
+oh heyo， you found my stupid blogｇo, ｋｉｄｄｏ.   now get off... ｓｃｒａｍ！！!
