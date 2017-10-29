@@ -16,7 +16,7 @@ description: 'the blog you should(nt?) read, boi
 baseurl: 
 url: http://emilsayahi.cf/
 github: https://github.com/emilsayahi
-twitter: cucc.nut.cc
+twitter: http://cucc.nut.cc
 markdown: kramdown
 gems:
 - jekyll-paginate
