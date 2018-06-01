@@ -13,7 +13,7 @@ email: limesayahi@gmail.com
 description: 'the blog you should(nt?) read, boi
 
 '
-baseurl: /d
+baseurl: "/d"
 url: http://liech.ga/
 github: https://github.com/emilsayahi
 markdown: kramdown
