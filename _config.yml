@@ -1,5 +1,5 @@
 ---
-title: limebois when?
+title: emil @ day
 timezone: America/New_York
 collections:
   posts:
@@ -13,7 +13,7 @@ email: limesayahi@gmail.com
 description: 'the blog you should(nt?) read, boi
 
 '
-baseurl: 
+baseurl: /d
 url: http://liech.ga/
 github: https://github.com/emilsayahi
 markdown: kramdown
