@@ -26,11 +26,6 @@
                 <i class="icon-large icon-twitter"></i>
             </a>
             {%endif%}
-            {%if site.facebook != empty %}
-            <a href="{{site.facebook}}">
-                <i class="icon-large icon-facebook"></i>
-            </a>
-            {%endif%}
             {%if site.github != empty %}
             <a href="{{site.github}}">
                 <i class="icon-large icon-github"></i>
@@ -45,7 +40,7 @@
             {% endfor %}
         </div>
         <div class="rss">
-                <a href="{{ "/feed.xml" | prepend: site.baseurl }}"><i class="icon-rss icon-large"></i>  RSS</a>
+                <a href="{{ "/feed.xml" | prepend: site.baseurl }}"><i class="icon-rss icon-large"></i>ｒｓｓ</a>
         </div>
     </div>
 
