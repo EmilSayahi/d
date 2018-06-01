@@ -14,9 +14,8 @@ description: 'the blog you should(nt?) read, boi
 
 '
 baseurl: 
-url: http://emilsayahi.cf/
+url: http://liech.ga/
 github: https://github.com/emilsayahi
-twitter: http://cucc.nut.cc
 markdown: kramdown
 gems:
 - jekyll-paginate
