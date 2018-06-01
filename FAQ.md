@@ -4,7 +4,7 @@ permalink: "/faq/"
 layout: page
 ---
 
-here are some questions you might have about me, and my answers.
+here are some frequently asked questions.
 <br>
 > question: who you?
 <br>
