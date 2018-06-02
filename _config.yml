@@ -15,7 +15,7 @@ description: 'the blog you should(nt?) read, boi
 '
 baseurl: "/d"
 url: http://liech.ga/
-twitter: @emilsayahi
+twitter: https://twitter.com/emilsayahi
 github: https://github.com/emilsayahi
 markdown: kramdown
 gems:
