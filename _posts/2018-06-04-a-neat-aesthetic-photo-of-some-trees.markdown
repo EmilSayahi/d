@@ -1,5 +1,5 @@
 ---
-title: a neato　ａｅｓｔｈｅｔｉｃ　photo of some trees
+title: a neat　ａｅｓｔｈｅｔｉｃ　photo of some trees
 date: 2018-06-04 00:30:00 -04:00
 tags:
 - pic
