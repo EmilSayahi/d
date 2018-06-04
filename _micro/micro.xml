@@ -10,7 +10,7 @@ layout:
 	<description>the blog you should(nt?) read, boi</description>
 	<link>https://liech.ga/d</link>
 	<atom:link href="https://liech.ga/d/micro.xml" rel="self" type="application/rss+xml" />
-	{ % for item in site.micro reversed % }
+	{ % for post in site.micro % }
 	  <item>
 		<title></title>
 		<description>
