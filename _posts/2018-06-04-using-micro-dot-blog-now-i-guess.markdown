@@ -7,4 +7,4 @@ tags:
 layout: post
 ---
 
-i was looking into micro-blogging, as that's what i intend to do with this site, and i found a collection of microblogs on micro.blog, so i guess i'm joining that.  
+i was looking into micro-blogging, as that's what i intend to do with this site, and i found a collection of microblogs on micro.blog, so i guess i'm joining that.   
