@@ -1,6 +1,9 @@
 ---
 title: using micro.blog now, i guess
 date: 2018-06-04 00:10:00 -04:00
+tags:
+- link
+- site
 layout: post
 ---
 
