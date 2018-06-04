@@ -2,6 +2,11 @@
 title: emil @ day
 timezone: America/New_York
 collections:
+  micro:
+    title: Micro
+    output: true
+    permalink: "/micro/:title"
+    layout: post
   posts:
     title: posts
     output: true
@@ -9,10 +14,6 @@ collections:
   uploads:
     title: uploads
     output: true
-  micro:
-    output: true
-    layout: post
-    permalink: /micro/:title
 email: em@emsa.cf
 description: 'the blog you should(nt?) read, boi
 
