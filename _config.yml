@@ -2,6 +2,11 @@
 title: emil @ day
 timezone: America/New_York
 collections:
+  micro:
+    title: Micro
+    output: true
+    permalink: "/micro/:title"
+    layout: post
   posts:
     title: posts
     output: true
@@ -9,7 +14,7 @@ collections:
   uploads:
     title: uploads
     output: true
-email: limesayahi@gmail.com
+email: em@emsa.cf
 description: 'the blog you should(nt?) read, boi
 
 '
