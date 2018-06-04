@@ -1,6 +1,8 @@
 ---
 title: i feel so dumb right now.
 date: 2018-06-04 02:22:00 -04:00
+tags:
+- test
 layout: page
 ---
 
