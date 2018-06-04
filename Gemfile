@@ -10,4 +10,6 @@ gem 'jemoji'
 gem 'jekyll-paginate'
 gem 'jekyll-twitter-plugin'
 gem 'hologram'
-gem 'jekyll-twitter-plugin'
+group :jekyll_plugins do:
+  gem 'jekyll-twitter-plugin'
+end
