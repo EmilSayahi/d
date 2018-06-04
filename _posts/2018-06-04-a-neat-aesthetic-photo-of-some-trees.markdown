@@ -1,7 +1,7 @@
 ---
 title: a neat　ａｅｓｔｈｅｔｉｃ　photo of some trees
-date: 2018-06-04 00:31:00 -04:00
-layout: post
+date: 2018-06-04 00:30:00 -04:00
+layout: page
 ---
 
 ![2ra48lnqjndz.jpg](https://i.redd.it/2ra48lnqjndz.jpg)
