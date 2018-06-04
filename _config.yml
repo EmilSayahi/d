@@ -10,10 +10,10 @@ collections:
     title: uploads
     output: true
   micro:
-	  output: true
-	  layout: post
-	  permalink: /micro/:title
-email: limesayahi@gmail.com
+    output: true
+    layout: post
+    permalink: /micro/:title
+email: em@emsa.cf
 description: 'the blog you should(nt?) read, boi
 
 '
