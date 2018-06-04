@@ -5,8 +5,8 @@ collections:
   micro:
     title: Micro
     output: true
-    permalink: "/micro/:title"
-    layout: post
+    permalink: "/d/micro/:title"
+    layout: "#post"
   posts:
     title: posts
     output: true
