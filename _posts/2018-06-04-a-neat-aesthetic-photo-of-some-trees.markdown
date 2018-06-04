@@ -1,6 +1,7 @@
 ---
 title: a neat　ａｅｓｔｈｅｔｉｃ　photo of some trees
 date: 2018-06-04 00:31:00 -04:00
+layout: post
 ---
 
 ![2ra48lnqjndz.jpg](/uploads/2ra48lnqjndz.jpg)
