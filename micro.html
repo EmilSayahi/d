@@ -1,15 +1,48 @@
 ---
+layout: default
 ---
 
-{ % for item in site.micro reversed % }
-<article class="post-preview">
-  { % if item.link % }
-	  <a href="">
-  <h2></h2>
-  </a>
-  { % else %} 
-  <h2></h2>
-	  { % endif % }
-  <p></p>
-</article>
-{ % endfor % }
+<div class="post-list">
+    { % for item in site.micro reversed % }
+    <div class="content">
+        <div class="post-content">
+            {{ item.content }}
+        </div>
+        <div class="post-meta">
+            <div class="post-meta-data">
+                <i class="icon-pencil icon-large"></i>
+                {{ item.date | date: "%b %-d, %Y" }}
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<div id="pagination">
+    <div class="pagenavi">
+        {% if paginator.previous_page %}
+        {% if paginator.previous_page == 1 %}
+        <a href="/" class="current">
+            <i class="icon-chevron-left"></i>
+        </a>
+        {% else %}
+        <a href="/page{{paginator.previous_page}}">
+            <i class="icon-chevron-left"></i>
+        </a>
+        {% endif %}
+        {% else %}
+        <span> <i class="icon-chevron-left"></i></span>
+        {% endif %}
+        {% for count in (2..paginator.total_pages) limit:8 %}
+        {% if count == paginator.page %}
+        <span class="current-page">{{count}}</span>
+        {% else %}
+        <a href="/page{{count}}">{{count}}</a>
+        {% endif %}
+        {% endfor %}
+
+        {% if paginator.next_page %}
+        <a href="/page{{paginator.next_page}}"><i class="icon-chevron-right"></i></a>
+        {% endif %}
+    </div>
+</div>
