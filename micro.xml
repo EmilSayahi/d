@@ -5,11 +5,11 @@
 	<description>the blog you should(nt?) read, boi</description>
 	<link>https://liech.ga/d</link>
 	<atom:link href="https://liech.ga/d/micro.xml" rel="self" type="application/rss+xml" />
-	{ % for post in site.micro % }
+	{% for post in site.micro reversed %}
 	  <item>
-		<title>{{ post.title}}</title>
+		<title>{{ post.title }}</title>
 		<description>
-		  {{ post.content}}</description>
+		  {{ post.content }}
 		</description>
 		<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
 		<link>{{ post.url | prepend: site.baseurl | prepend: site.url }}/index.html</link>
