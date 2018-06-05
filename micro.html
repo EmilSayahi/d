@@ -3,17 +3,17 @@
 
 <div class="post-list">
     { % for item in site.micro reversed % }
-    <div class="content">
-        <div class="post-content">
-            {{ item.content }}
-        </div>
-        <div class="post-meta">
-            <div class="post-meta-data">
-                <i class="icon-pencil icon-large"></i>
-                {{ item.date | date: "%b %-d, %Y" }}
+        <div class="content">
+            <div class="post-content">
+                {{ item.content }}
+            </div>
+            <div class="post-meta">
+                <div class="post-meta-data">
+                    <i class="icon-pencil icon-large"></i>
+                    {{ item.date | date: "%b %-d, %Y" }}
+                </div>
             </div>
         </div>
-    </div>
     {% endfor %}
 </div>
 
