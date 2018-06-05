@@ -1,1 +1,26 @@
-<iframe width="430" height="315"  src="https://publish.twitter.com/oembed?url={{ include.id }}"></iframe>
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+		var id = '{{ include.id }}'
+		var twtslsh = id.replace(/\//g, '%2F')
+        var twturl = 'https://noembed.com/embed?url=' + twtslsh.replace(/\:/g, '%3A') + '.json'
+        $.getJSON(twturl, function(result){
+            $.each(result, function(i, field){
+                $("div").html(field);
+            });
+        });
+//$("div").prepend(twturl);
+});
+</script>
+</head>
+<body>
+
+
+
+<div></div>
+
+</body>
+</html>
