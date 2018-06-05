@@ -2,6 +2,11 @@
 title: emil @ day
 timezone: America/New_York
 collections:
+  drafts:
+    title: draft
+    output: true
+    visible: 0
+    hidden: true
   micro:
     title: micro
     output: true
