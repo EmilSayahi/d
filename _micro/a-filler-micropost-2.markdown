@@ -8,5 +8,4 @@ layout: page
 ---
 
 this is a filler micropost. just to make it look like my website didn't die.
-
 ![ ](https://github.com/EmilSayahi/d/raw/master/uploads/filler.png)
