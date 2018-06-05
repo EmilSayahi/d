@@ -5,10 +5,13 @@
 $(document).ready(function(){
 		var id = '{{ include.id }}'
 		var scslsh = encodeURI(id);
-        var scurl = 'https://noembed.com/embed?url=' + scslsh + '.json'
+        var scurl = 'https://noembed.com/embed?url=' + id
         $.getJSON(scurl, function(result){
             $.each(result, function(i, field){
                 $("sc").html(field);
+                if(i == 'html'){
+                return false;
+                }
             });
         });
 //$("div").prepend(scurl);
