@@ -4,9 +4,7 @@ timezone: America/New_York
 collections:
   micro:
     title: Micro
-    output: true
-    permalink: "/micro/:title"
-    layout: post
+    output: false
   posts:
     title: posts
     output: true
