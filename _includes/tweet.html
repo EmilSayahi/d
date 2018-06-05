@@ -9,6 +9,9 @@ $(document).ready(function(){
         $.getJSON(twturl, function(result){
             $.each(result, function(i, field){
                 $("twt").html(field);
+                if(i == 'html'){
+                return false;
+                }
             });
         });
 //$("div").prepend(twturl);
