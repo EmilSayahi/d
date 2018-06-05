@@ -3,7 +3,7 @@ title: emil @ day
 timezone: America/New_York
 collections:
   drafts:
-    title: draft
+    title: drafts
     output: true
     visible: 0
     hidden: true
