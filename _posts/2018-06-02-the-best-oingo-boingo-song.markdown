@@ -9,3 +9,4 @@ layout: post
 
 i swear to god if you disagree ill kill ya weehee
 [oof](https://www.youtube.com/watch?v=hxOnbpWVELU)
+{% include youtubePlayer.html id="hxOnbpWVELU" %}
