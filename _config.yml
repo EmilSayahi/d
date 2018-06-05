@@ -3,7 +3,7 @@ title: emil @ day
 timezone: America/New_York
 collections:
   micro:
-    title: Micro
+    title: micro
     output: true
   posts:
     title: posts
