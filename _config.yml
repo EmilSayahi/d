@@ -4,7 +4,7 @@ timezone: America/New_York
 collections:
   micro:
     title: Micro
-    output: false
+    output: true
   posts:
     title: posts
     output: true
