@@ -4,14 +4,14 @@
 <script>
 $(document).ready(function(){
 		var id = '{{ include.id }}'
-		var twtslsh = encodeURI(id);
-        var twturl = 'https://noembed.com/embed?url=' + twtslsh + '.json'
-        $.getJSON(twturl, function(result){
+		var scslsh = encodeURI(id);
+        var scurl = 'https://noembed.com/embed?url=' + scslsh + '.json'
+        $.getJSON(scurl, function(result){
             $.each(result, function(i, field){
-                $("twt").html(field);
+                $("sc").html(field);
             });
         });
-//$("div").prepend(twturl);
+//$("div").prepend(scurl);
 });
 </script>
 </head>
@@ -19,7 +19,7 @@ $(document).ready(function(){
 
 
 
-<twt></twt>
+<sc></sc>
 
 </body>
 </html>
