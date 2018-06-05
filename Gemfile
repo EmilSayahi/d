@@ -8,8 +8,4 @@ gem 'mdl'
 gem 'jekyll-picture-tag'
 gem 'jemoji'
 gem 'jekyll-paginate'
-gem 'jekyll-twitter-plugin'
 gem 'hologram'
-group :jekyll_plugins do:
-  gem 'jekyll-twitter-plugin'
-end
