@@ -4,7 +4,7 @@ date: 2018-06-04 00:30:00 -04:00
 categories:
 - photo
 image: https://i.redd.it/2ra48lnqjndz.jpg
-layout: page
+layout: post
 ---
 
 [![2ra48lnqjndz.jpg](https://i.redd.it/2ra48lnqjndz.jpg)](https://i.redd.it/2ra48lnqjndz.jpg)
