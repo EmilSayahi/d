@@ -1,0 +1,22 @@
+<style>
+  .container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+  }
+  .tweet {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+  }
+</style>
+<div class="container">
+  <iframe src="https://publish.twitter.com/oembed?url={{ include.id }}" frameborder="0" allowfullscreen class="tweet"></iframe>
+</div>
+<!-- To include in a post:
+{% include tweet.html id=page.tweetId %}
+Then make a metadata entry called 'tweetId' and then put the URL in.
+-->
