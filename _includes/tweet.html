@@ -9,7 +9,7 @@ $(document).ready(function(){
         var twturl = 'https://noembed.com/embed?url=' + twtslsh.replace(/\:/g, '%3A') + '.json'
         $.getJSON(twturl, function(result){
             $.each(result, function(i, field){
-                $("div").html(field);
+                $("twt").html(field);
             });
         });
 //$("div").prepend(twturl);
@@ -20,7 +20,7 @@ $(document).ready(function(){
 
 
 
-<div></div>
+<twt></twt>
 
 </body>
 </html>
