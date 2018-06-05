@@ -7,5 +7,4 @@ image: https://i.redd.it/2ra48lnqjndz.jpg
 layout: post
 ---
 
-[![2ra48lnqjndz.jpg](https://i.redd.it/2ra48lnqjndz.jpg)](https://i.redd.it/2ra48lnqjndz.jpg)
-Source:  ['This picture of some palm trees' on r/pics](https://www.reddit.com/r/pics/comments/8o9b4z/this_picture_of_some_palm_trees/)
+[![2ra48lnqjndz.jpg](https://i.redd.it/2ra48lnqjndz.jpg)](https://www.reddit.com/r/pics/comments/8o9b4z/this_picture_of_some_palm_trees/)
