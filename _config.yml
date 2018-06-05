@@ -5,6 +5,7 @@ collections:
   micro:
     title: micro
     output: true
+    layout: post
   posts:
     title: posts
     output: true
