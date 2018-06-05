@@ -5,6 +5,8 @@ collections:
   drafts:
     title: drafts
     output: true
+    visible: 0
+    hidden: true
   micro:
     title: micro
     output: true
