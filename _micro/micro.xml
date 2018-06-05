@@ -12,7 +12,7 @@ layout:
 	<atom:link href="https://liech.ga/d/micro.xml" rel="self" type="application/rss+xml" />
 	{ % for post in site.micro % }
 	  <item>
-		<title>{{ post.title]}</title>
+		<title>{{ post.title}}</title>
 		<description>
 		  {{ post.content}}</description>
 		</description>
