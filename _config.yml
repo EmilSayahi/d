@@ -5,8 +5,6 @@ collections:
   drafts:
     title: drafts
     output: true
-    visible: 0
-    hidden: true
     layout: micropost
   dump:
     title: dump
