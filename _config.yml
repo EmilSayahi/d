@@ -7,6 +7,9 @@ collections:
     output: true
     visible: 0
     hidden: true
+  dump:
+    title: dump
+    output: true
   micro:
     title: micro
     output: true
