@@ -3,6 +3,9 @@ title: some cool art i found on reddit
 date: 2018-06-06 16:00:00 -04:00
 categories:
 - photo
+tags:
+- vaporwave
+- pic
 image: https://i.redd.it/anvyhebrq7h01.png
 layout: post
 ---
