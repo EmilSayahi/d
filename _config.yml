@@ -10,6 +10,7 @@ collections:
   dump:
     title: dump
     output: true
+    layout: micropost
   micro:
     title: micro
     output: true
