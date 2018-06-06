@@ -1,7 +1,6 @@
 ---
 title: tweeting test
 date: 2018-06-05 14:48:00 -04:00
-published: false
 categories:
 - photo
 layout: micropost
