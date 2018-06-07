@@ -7,4 +7,4 @@ image: https://una.im/CSSgram/img/atx.jpg
 layout: micropost
 ---
 
-{% include image.html filter="moon" %}
+{% include image.html filter="moon" image="https://una.im/CSSgram/img/atx.jpg" %}
