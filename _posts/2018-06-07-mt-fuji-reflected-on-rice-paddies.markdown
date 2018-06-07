@@ -3,6 +3,9 @@ title: mt. fuji reflected on rice paddies
 date: 2018-06-07 14:15:00 -04:00
 categories:
 - photo
+tags:
+- aesthetic
+- pic
 image: https://i.redd.it/6om03v7rih211.jpg
 ---
 
