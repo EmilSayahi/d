@@ -9,4 +9,4 @@ tags:
 layout: micropost
 ---
 
-https://youtu.be/Enzxdvo8NOk
+{% include youtubePlayer.html id="Enzxdvo8NOk" %}
