@@ -1,4 +1,6 @@
 <!-- Uses the plyr.io HTML5 player -->
+<script src="https://cdn.plyr.io/2.0.15/plyr.js"></script>
+<link rel="stylesheet" href="https://cdn.plyr.io/2.0.15/plyr.css">
 <script>
 document.addEventListener('DOMContentLoaded', () => { 
   // This is the bare minimum JavaScript. You can opt to pass no arguments to setup.
@@ -34,6 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
     player.forward();
   });
 });
+  plyr.setup("#plyr-video");
 </script>
 <div class="container">
 <video controls crossorigin playsinline id="player">
