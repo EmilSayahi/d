@@ -4,7 +4,7 @@
 <script>
 document.addEventListener('DOMContentLoaded', () => { 
   // This is the bare minimum JavaScript. You can opt to pass no arguments to setup.
-  const player = new Plyr('#player');
+  const player = new Plyr('#audio');
 
   // Bind event listener
   function on(selector, type, callback) {
@@ -36,9 +36,9 @@ document.addEventListener('DOMContentLoaded', () => {
     player.forward();
   });
 });
-plyr.setup("#plyr-audio");
+plyr.setup("#audio");
 </script>
-<div class="container">
+<div class="audio">
 <audio id="player" controls>
     <source src="{{ page.audio-mp3 }}" type="audio/mp3">
     <source src="{{ page.audio-ogg }}" type="audio/ogg">
