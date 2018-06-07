@@ -16,7 +16,12 @@ layout: default
             {{ post.content }}
         </div>
 
-        
+                 <div class="categories">
+                {% if post.categories != empty %}
+                    <i class="icon-folder-open icon-large"></i>
+                    {{post.categories}}
+                {%endif%}
+            </div>   
         <div class="tags">
             {% if post.tags != empty %}
                 <i class="icon-tags icon-large"></i>
