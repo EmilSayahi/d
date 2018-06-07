@@ -7,4 +7,4 @@ video: https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-1440p.mp4
 layout: micropost
 ---
 
-{% include video.html %}
+{% include video.html video="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-1440p.mp4" %}
