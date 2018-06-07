@@ -1,8 +1,6 @@
 ---
 title: the best oingo boingo song
 date: 2018-06-02 03:00:00 -04:00
-categories:
-- photo
 tags:
 - music
 - link
