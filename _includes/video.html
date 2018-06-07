@@ -4,7 +4,7 @@
 <script>
 document.addEventListener('DOMContentLoaded', () => { 
   // This is the bare minimum JavaScript. You can opt to pass no arguments to setup.
-  const player = new Plyr('#player');
+  const player = new Plyr('#video');
 
   // Bind event listener
   function on(selector, type, callback) {
@@ -36,10 +36,10 @@ document.addEventListener('DOMContentLoaded', () => {
     player.forward();
   });
 });
-plyr.setup("#player");
+plyr.setup("#video");
 </script>
 <div class="container">
-<video controls crossorigin playsinline id="player">
+<video controls crossorigin playsinline id="video">
                 <!-- Video files -->
                 <source src="{{ page.video }}" type="video/mp4">
 
