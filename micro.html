@@ -31,7 +31,7 @@ layout: default
                       | join: ","
                       | split: ","
                       | uniq %}
-{{ uniq_tags | ,  }}
+{{ uniq_tags | join: ", " }}
 
             {%endif%}
         </div>
